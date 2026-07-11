@@ -1,0 +1,55 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #004080;
+    padding: 1rem;
+}
+
+nav {
+    display: flex;
+    gap: 1rem;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+main {
+    max-width: 800px;
+    margin: 1rem;
+}
+
+main img {
+    width: 150px;
+    height: auto;
+}
+
+aside {
+    width: 20rem;
+    margin: 1rem;
+    border: 1px solid #333;
+    padding: 1rem;
+    background-color: #eeeeee;
+    color: #000;
+}
+
+aside img {
+    width: 200px;
+    height: auto;
+}
+
+p {
+    padding: 0;
+}
+
+footer {
+    margin-top: 20px;
+    border-top: 1px solid #333;
+    text-align: center;
+    padding: 1rem;
+}
