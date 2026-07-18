@@ -3,7 +3,6 @@
     --secondary-color: #457b9d;
     --accent1-color: #0b2545;
     --accent2-color: #f1faee;
-
     --heading-font: Georgia, serif;
     --body-font: Arial, Helvetica, sans-serif;
 }
@@ -17,7 +16,7 @@
 body {
     font-family: var(--body-font);
     color: var(--accent1-color);
-    background-color: #ffffff;
+    background-color: var(--accent2-color);
 }
 
 header,
