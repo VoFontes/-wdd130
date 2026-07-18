@@ -12,11 +12,15 @@ header {
 nav {
     display: flex;
     gap: 1rem;
+    background-color: #004080;
+    padding: 1rem;
 }
 
 nav a {
     color: white;
     text-decoration: none;
+    padding: 0.5rem;
+    display: block;
 }
 
 main {
@@ -24,9 +28,16 @@ main {
     margin: 1rem;
 }
 
+h1 {
+    color: #004080;
+}
+
 main img {
     width: 150px;
     height: auto;
+    border: 1px solid #333;
+    padding: 5px;
+    box-shadow: 0 0 10px gray;
 }
 
 aside {
